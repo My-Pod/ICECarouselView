@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1703E7A61EC784635C1C1BBA /* Pods_ICECarouselView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CFB17DEFB676D505B708FED /* Pods_ICECarouselView.framework */; };
+		174767D21D8F8BA300F4C2C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 174767D11D8F8BA300F4C2C5 /* main.m */; };
+		174767D51D8F8BA300F4C2C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 174767D41D8F8BA300F4C2C5 /* AppDelegate.m */; };
+		174767D81D8F8BA300F4C2C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 174767D71D8F8BA300F4C2C5 /* ViewController.m */; };
+		174767DB1D8F8BA300F4C2C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 174767D91D8F8BA300F4C2C5 /* Main.storyboard */; };
+		174767DD1D8F8BA300F4C2C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 174767DC1D8F8BA300F4C2C5 /* Assets.xcassets */; };
+		174767E01D8F8BA300F4C2C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 174767DE1D8F8BA300F4C2C5 /* LaunchScreen.storyboard */; };
+		174767EB1D8F8BA300F4C2C5 /* ICECarouselViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 174767EA1D8F8BA300F4C2C5 /* ICECarouselViewTests.m */; };
+		174767F61D8F8BA300F4C2C5 /* ICECarouselViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 174767F51D8F8BA300F4C2C5 /* ICECarouselViewUITests.m */; };
+		174768071D8F8BF400F4C2C5 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 174768041D8F8BF400F4C2C5 /* .gitkeep */; };
+		174768081D8F8BF400F4C2C5 /* ICECarouselView.m in Sources */ = {isa = PBXBuildFile; fileRef = 174768061D8F8BF400F4C2C5 /* ICECarouselView.m */; };
+		1747680D1D8F8BFC00F4C2C5 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 1747680A1D8F8BFC00F4C2C5 /* LICENSE */; };
+		1747680E1D8F8BFC00F4C2C5 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 1747680B1D8F8BFC00F4C2C5 /* README.md */; };
+		17A0D0841D8F93E900A3C74D /* ICECarouselView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 17A0D0831D8F93E900A3C74D /* ICECarouselView.podspec */; };
+		17A0D0C71D8FEB5B00A3C74D /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 17A0D0C61D8FEB5B00A3C74D /* 2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		174767E71D8F8BA300F4C2C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 174767C51D8F8BA300F4C2C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 174767CC1D8F8BA300F4C2C5;
+			remoteInfo = ICECarouselView;
+		};
+		174767F21D8F8BA300F4C2C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 174767C51D8F8BA300F4C2C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 174767CC1D8F8BA300F4C2C5;
+			remoteInfo = ICECarouselView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		016EA0446E18A30ACE08B327 /* Pods-ICECarouselView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ICECarouselView.release.xcconfig"; path = "Pods/Target Support Files/Pods-ICECarouselView/Pods-ICECarouselView.release.xcconfig"; sourceTree = "<group>"; };
+		174767CD1D8F8BA300F4C2C5 /* ICECarouselView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ICECarouselView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		174767D11D8F8BA300F4C2C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		174767D31D8F8BA300F4C2C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		174767D41D8F8BA300F4C2C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		174767D61D8F8BA300F4C2C5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		174767D71D8F8BA300F4C2C5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		174767DA1D8F8BA300F4C2C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		174767DC1D8F8BA300F4C2C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		174767DF1D8F8BA300F4C2C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		174767E11D8F8BA300F4C2C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		174767E61D8F8BA300F4C2C5 /* ICECarouselViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ICECarouselViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		174767EA1D8F8BA300F4C2C5 /* ICECarouselViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICECarouselViewTests.m; sourceTree = "<group>"; };
+		174767EC1D8F8BA300F4C2C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		174767F11D8F8BA300F4C2C5 /* ICECarouselViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ICECarouselViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		174767F51D8F8BA300F4C2C5 /* ICECarouselViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICECarouselViewUITests.m; sourceTree = "<group>"; };
+		174767F71D8F8BA300F4C2C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		174768041D8F8BF400F4C2C5 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		174768051D8F8BF400F4C2C5 /* ICECarouselView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICECarouselView.h; sourceTree = "<group>"; };
+		174768061D8F8BF400F4C2C5 /* ICECarouselView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICECarouselView.m; sourceTree = "<group>"; };
+		1747680A1D8F8BFC00F4C2C5 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1747680B1D8F8BFC00F4C2C5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		17A0D0831D8F93E900A3C74D /* ICECarouselView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ICECarouselView.podspec; path = ../ICECarouselView.podspec; sourceTree = "<group>"; };
+		17A0D0C61D8FEB5B00A3C74D /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		51D55B1F37FFC4FD45F559A9 /* Pods-ICECarouselView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ICECarouselView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ICECarouselView/Pods-ICECarouselView.debug.xcconfig"; sourceTree = "<group>"; };
+		7CFB17DEFB676D505B708FED /* Pods_ICECarouselView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ICECarouselView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		174767CA1D8F8BA300F4C2C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1703E7A61EC784635C1C1BBA /* Pods_ICECarouselView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		174767E31D8F8BA300F4C2C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		174767EE1D8F8BA300F4C2C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		174767C41D8F8BA300F4C2C5 = {
+			isa = PBXGroup;
+			children = (
+				17A0D0831D8F93E900A3C74D /* ICECarouselView.podspec */,
+				1747680A1D8F8BFC00F4C2C5 /* LICENSE */,
+				1747680B1D8F8BFC00F4C2C5 /* README.md */,
+				174768031D8F8BF400F4C2C5 /* Classes */,
+				174767CF1D8F8BA300F4C2C5 /* ICECarouselView */,
+				174767E91D8F8BA300F4C2C5 /* ICECarouselViewTests */,
+				174767F41D8F8BA300F4C2C5 /* ICECarouselViewUITests */,
+				174767CE1D8F8BA300F4C2C5 /* Products */,
+				E1CE0D1414F3E77120942A5E /* Pods */,
+				EA6989408BC73A60742C7187 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		174767CE1D8F8BA300F4C2C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				174767CD1D8F8BA300F4C2C5 /* ICECarouselView.app */,
+				174767E61D8F8BA300F4C2C5 /* ICECarouselViewTests.xctest */,
+				174767F11D8F8BA300F4C2C5 /* ICECarouselViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		174767CF1D8F8BA300F4C2C5 /* ICECarouselView */ = {
+			isa = PBXGroup;
+			children = (
+				174767D31D8F8BA300F4C2C5 /* AppDelegate.h */,
+				17A0D0C61D8FEB5B00A3C74D /* 2.png */,
+				174767D41D8F8BA300F4C2C5 /* AppDelegate.m */,
+				174767D61D8F8BA300F4C2C5 /* ViewController.h */,
+				174767D71D8F8BA300F4C2C5 /* ViewController.m */,
+				174767D91D8F8BA300F4C2C5 /* Main.storyboard */,
+				174767DC1D8F8BA300F4C2C5 /* Assets.xcassets */,
+				174767DE1D8F8BA300F4C2C5 /* LaunchScreen.storyboard */,
+				174767E11D8F8BA300F4C2C5 /* Info.plist */,
+				174767D01D8F8BA300F4C2C5 /* Supporting Files */,
+			);
+			path = ICECarouselView;
+			sourceTree = "<group>";
+		};
+		174767D01D8F8BA300F4C2C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				174767D11D8F8BA300F4C2C5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		174767E91D8F8BA300F4C2C5 /* ICECarouselViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				174767EA1D8F8BA300F4C2C5 /* ICECarouselViewTests.m */,
+				174767EC1D8F8BA300F4C2C5 /* Info.plist */,
+			);
+			path = ICECarouselViewTests;
+			sourceTree = "<group>";
+		};
+		174767F41D8F8BA300F4C2C5 /* ICECarouselViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				174767F51D8F8BA300F4C2C5 /* ICECarouselViewUITests.m */,
+				174767F71D8F8BA300F4C2C5 /* Info.plist */,
+			);
+			path = ICECarouselViewUITests;
+			sourceTree = "<group>";
+		};
+		174768031D8F8BF400F4C2C5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				174768041D8F8BF400F4C2C5 /* .gitkeep */,
+				174768051D8F8BF400F4C2C5 /* ICECarouselView.h */,
+				174768061D8F8BF400F4C2C5 /* ICECarouselView.m */,
+			);
+			name = Classes;
+			path = ../Classes;
+			sourceTree = "<group>";
+		};
+		E1CE0D1414F3E77120942A5E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51D55B1F37FFC4FD45F559A9 /* Pods-ICECarouselView.debug.xcconfig */,
+				016EA0446E18A30ACE08B327 /* Pods-ICECarouselView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EA6989408BC73A60742C7187 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CFB17DEFB676D505B708FED /* Pods_ICECarouselView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		174767CC1D8F8BA300F4C2C5 /* ICECarouselView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 174767FA1D8F8BA300F4C2C5 /* Build configuration list for PBXNativeTarget "ICECarouselView" */;
+			buildPhases = (
+				E60A0FD97FECBEFA8F898A88 /* [CP] Check Pods Manifest.lock */,
+				174767C91D8F8BA300F4C2C5 /* Sources */,
+				174767CA1D8F8BA300F4C2C5 /* Frameworks */,
+				174767CB1D8F8BA300F4C2C5 /* Resources */,
+				D66D2B6D108D0E04B13DB1A4 /* [CP] Embed Pods Frameworks */,
+				01F81081917F952341FDF197 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ICECarouselView;
+			productName = ICECarouselView;
+			productReference = 174767CD1D8F8BA300F4C2C5 /* ICECarouselView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		174767E51D8F8BA300F4C2C5 /* ICECarouselViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 174767FD1D8F8BA300F4C2C5 /* Build configuration list for PBXNativeTarget "ICECarouselViewTests" */;
+			buildPhases = (
+				174767E21D8F8BA300F4C2C5 /* Sources */,
+				174767E31D8F8BA300F4C2C5 /* Frameworks */,
+				174767E41D8F8BA300F4C2C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				174767E81D8F8BA300F4C2C5 /* PBXTargetDependency */,
+			);
+			name = ICECarouselViewTests;
+			productName = ICECarouselViewTests;
+			productReference = 174767E61D8F8BA300F4C2C5 /* ICECarouselViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		174767F01D8F8BA300F4C2C5 /* ICECarouselViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 174768001D8F8BA300F4C2C5 /* Build configuration list for PBXNativeTarget "ICECarouselViewUITests" */;
+			buildPhases = (
+				174767ED1D8F8BA300F4C2C5 /* Sources */,
+				174767EE1D8F8BA300F4C2C5 /* Frameworks */,
+				174767EF1D8F8BA300F4C2C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				174767F31D8F8BA300F4C2C5 /* PBXTargetDependency */,
+			);
+			name = ICECarouselViewUITests;
+			productName = ICECarouselViewUITests;
+			productReference = 174767F11D8F8BA300F4C2C5 /* ICECarouselViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		174767C51D8F8BA300F4C2C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = ICE;
+				TargetAttributes = {
+					174767CC1D8F8BA300F4C2C5 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3D6D7A4Z2Z;
+						ProvisioningStyle = Automatic;
+					};
+					174767E51D8F8BA300F4C2C5 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 174767CC1D8F8BA300F4C2C5;
+					};
+					174767F01D8F8BA300F4C2C5 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 174767CC1D8F8BA300F4C2C5;
+					};
+				};
+			};
+			buildConfigurationList = 174767C81D8F8BA300F4C2C5 /* Build configuration list for PBXProject "ICECarouselView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 174767C41D8F8BA300F4C2C5;
+			productRefGroup = 174767CE1D8F8BA300F4C2C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				174767CC1D8F8BA300F4C2C5 /* ICECarouselView */,
+				174767E51D8F8BA300F4C2C5 /* ICECarouselViewTests */,
+				174767F01D8F8BA300F4C2C5 /* ICECarouselViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		174767CB1D8F8BA300F4C2C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1747680D1D8F8BFC00F4C2C5 /* LICENSE in Resources */,
+				174767E01D8F8BA300F4C2C5 /* LaunchScreen.storyboard in Resources */,
+				17A0D0C71D8FEB5B00A3C74D /* 2.png in Resources */,
+				174767DD1D8F8BA300F4C2C5 /* Assets.xcassets in Resources */,
+				174767DB1D8F8BA300F4C2C5 /* Main.storyboard in Resources */,
+				174768071D8F8BF400F4C2C5 /* .gitkeep in Resources */,
+				17A0D0841D8F93E900A3C74D /* ICECarouselView.podspec in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		174767E41D8F8BA300F4C2C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		174767EF1D8F8BA300F4C2C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01F81081917F952341FDF197 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ICECarouselView/Pods-ICECarouselView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D66D2B6D108D0E04B13DB1A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ICECarouselView/Pods-ICECarouselView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E60A0FD97FECBEFA8F898A88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		174767C91D8F8BA300F4C2C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				174767D81D8F8BA300F4C2C5 /* ViewController.m in Sources */,
+				174767D51D8F8BA300F4C2C5 /* AppDelegate.m in Sources */,
+				1747680E1D8F8BFC00F4C2C5 /* README.md in Sources */,
+				174768081D8F8BF400F4C2C5 /* ICECarouselView.m in Sources */,
+				174767D21D8F8BA300F4C2C5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		174767E21D8F8BA300F4C2C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				174767EB1D8F8BA300F4C2C5 /* ICECarouselViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		174767ED1D8F8BA300F4C2C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				174767F61D8F8BA300F4C2C5 /* ICECarouselViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		174767E81D8F8BA300F4C2C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 174767CC1D8F8BA300F4C2C5 /* ICECarouselView */;
+			targetProxy = 174767E71D8F8BA300F4C2C5 /* PBXContainerItemProxy */;
+		};
+		174767F31D8F8BA300F4C2C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 174767CC1D8F8BA300F4C2C5 /* ICECarouselView */;
+			targetProxy = 174767F21D8F8BA300F4C2C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		174767D91D8F8BA300F4C2C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				174767DA1D8F8BA300F4C2C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		174767DE1D8F8BA300F4C2C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				174767DF1D8F8BA300F4C2C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		174767F81D8F8BA300F4C2C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		174767F91D8F8BA300F4C2C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		174767FB1D8F8BA300F4C2C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51D55B1F37FFC4FD45F559A9 /* Pods-ICECarouselView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3D6D7A4Z2Z;
+				INFOPLIST_FILE = ICECarouselView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wly.ICECarouselView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		174767FC1D8F8BA300F4C2C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 016EA0446E18A30ACE08B327 /* Pods-ICECarouselView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3D6D7A4Z2Z;
+				INFOPLIST_FILE = ICECarouselView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wly.ICECarouselView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		174767FE1D8F8BA300F4C2C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ICECarouselViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wly.ICECarouselViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ICECarouselView.app/ICECarouselView";
+			};
+			name = Debug;
+		};
+		174767FF1D8F8BA300F4C2C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ICECarouselViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wly.ICECarouselViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ICECarouselView.app/ICECarouselView";
+			};
+			name = Release;
+		};
+		174768011D8F8BA300F4C2C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ICECarouselViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wly.ICECarouselViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ICECarouselView;
+			};
+			name = Debug;
+		};
+		174768021D8F8BA300F4C2C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ICECarouselViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wly.ICECarouselViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ICECarouselView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		174767C81D8F8BA300F4C2C5 /* Build configuration list for PBXProject "ICECarouselView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				174767F81D8F8BA300F4C2C5 /* Debug */,
+				174767F91D8F8BA300F4C2C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		174767FA1D8F8BA300F4C2C5 /* Build configuration list for PBXNativeTarget "ICECarouselView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				174767FB1D8F8BA300F4C2C5 /* Debug */,
+				174767FC1D8F8BA300F4C2C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		174767FD1D8F8BA300F4C2C5 /* Build configuration list for PBXNativeTarget "ICECarouselViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				174767FE1D8F8BA300F4C2C5 /* Debug */,
+				174767FF1D8F8BA300F4C2C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		174768001D8F8BA300F4C2C5 /* Build configuration list for PBXNativeTarget "ICECarouselViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				174768011D8F8BA300F4C2C5 /* Debug */,
+				174768021D8F8BA300F4C2C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 174767C51D8F8BA300F4C2C5 /* Project object */;
+}
