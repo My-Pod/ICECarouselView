@@ -39,7 +39,7 @@ typedef void (^DidSelectedBlock) (NSInteger index);
 - (void)setImages:(NSArray *)imgs;
 
 ///imgs 可以是 UIImage 也可以是 URL
-- (void)setImages:(NSArray *)imgs withPlaceholder:(UIImage *)image;
+- (void)setImages:(NSArray *)imgs withPlaceholder:(nullable UIImage *)image;
 
 
 /**

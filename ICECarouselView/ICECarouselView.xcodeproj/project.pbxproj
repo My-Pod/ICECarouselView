@@ -16,11 +16,7 @@
 		174767E01D8F8BA300F4C2C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 174767DE1D8F8BA300F4C2C5 /* LaunchScreen.storyboard */; };
 		174767EB1D8F8BA300F4C2C5 /* ICECarouselViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 174767EA1D8F8BA300F4C2C5 /* ICECarouselViewTests.m */; };
 		174767F61D8F8BA300F4C2C5 /* ICECarouselViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 174767F51D8F8BA300F4C2C5 /* ICECarouselViewUITests.m */; };
-		174768071D8F8BF400F4C2C5 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 174768041D8F8BF400F4C2C5 /* .gitkeep */; };
 		174768081D8F8BF400F4C2C5 /* ICECarouselView.m in Sources */ = {isa = PBXBuildFile; fileRef = 174768061D8F8BF400F4C2C5 /* ICECarouselView.m */; };
-		1747680D1D8F8BFC00F4C2C5 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 1747680A1D8F8BFC00F4C2C5 /* LICENSE */; };
-		1747680E1D8F8BFC00F4C2C5 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 1747680B1D8F8BFC00F4C2C5 /* README.md */; };
-		17A0D0841D8F93E900A3C74D /* ICECarouselView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 17A0D0831D8F93E900A3C74D /* ICECarouselView.podspec */; };
 		17A0D0C71D8FEB5B00A3C74D /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 17A0D0C61D8FEB5B00A3C74D /* 2.png */; };
 /* End PBXBuildFile section */
 
@@ -59,12 +55,8 @@
 		174767F11D8F8BA300F4C2C5 /* ICECarouselViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ICECarouselViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		174767F51D8F8BA300F4C2C5 /* ICECarouselViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICECarouselViewUITests.m; sourceTree = "<group>"; };
 		174767F71D8F8BA300F4C2C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		174768041D8F8BF400F4C2C5 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		174768051D8F8BF400F4C2C5 /* ICECarouselView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICECarouselView.h; sourceTree = "<group>"; };
 		174768061D8F8BF400F4C2C5 /* ICECarouselView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICECarouselView.m; sourceTree = "<group>"; };
-		1747680A1D8F8BFC00F4C2C5 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		1747680B1D8F8BFC00F4C2C5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		17A0D0831D8F93E900A3C74D /* ICECarouselView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ICECarouselView.podspec; path = ../ICECarouselView.podspec; sourceTree = "<group>"; };
 		17A0D0C61D8FEB5B00A3C74D /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		51D55B1F37FFC4FD45F559A9 /* Pods-ICECarouselView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ICECarouselView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ICECarouselView/Pods-ICECarouselView.debug.xcconfig"; sourceTree = "<group>"; };
 		7CFB17DEFB676D505B708FED /* Pods_ICECarouselView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ICECarouselView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,9 +91,6 @@
 		174767C41D8F8BA300F4C2C5 = {
 			isa = PBXGroup;
 			children = (
-				17A0D0831D8F93E900A3C74D /* ICECarouselView.podspec */,
-				1747680A1D8F8BFC00F4C2C5 /* LICENSE */,
-				1747680B1D8F8BFC00F4C2C5 /* README.md */,
 				174768031D8F8BF400F4C2C5 /* Classes */,
 				174767CF1D8F8BA300F4C2C5 /* ICECarouselView */,
 				174767E91D8F8BA300F4C2C5 /* ICECarouselViewTests */,
@@ -168,7 +157,6 @@
 		174768031D8F8BF400F4C2C5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				174768041D8F8BF400F4C2C5 /* .gitkeep */,
 				174768051D8F8BF400F4C2C5 /* ICECarouselView.h */,
 				174768061D8F8BF400F4C2C5 /* ICECarouselView.m */,
 			);
@@ -303,13 +291,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1747680D1D8F8BFC00F4C2C5 /* LICENSE in Resources */,
 				174767E01D8F8BA300F4C2C5 /* LaunchScreen.storyboard in Resources */,
 				17A0D0C71D8FEB5B00A3C74D /* 2.png in Resources */,
 				174767DD1D8F8BA300F4C2C5 /* Assets.xcassets in Resources */,
 				174767DB1D8F8BA300F4C2C5 /* Main.storyboard in Resources */,
-				174768071D8F8BF400F4C2C5 /* .gitkeep in Resources */,
-				17A0D0841D8F93E900A3C74D /* ICECarouselView.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,7 +369,6 @@
 			files = (
 				174767D81D8F8BA300F4C2C5 /* ViewController.m in Sources */,
 				174767D51D8F8BA300F4C2C5 /* AppDelegate.m in Sources */,
-				1747680E1D8F8BFC00F4C2C5 /* README.md in Sources */,
 				174768081D8F8BF400F4C2C5 /* ICECarouselView.m in Sources */,
 				174767D21D8F8BA300F4C2C5 /* main.m in Sources */,
 			);
